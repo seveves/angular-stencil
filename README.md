@@ -277,4 +277,4 @@ export class AppComponent {
 ### run the angular app
 See what we have done by running `npm start` inside the angular directory.
 
-![final slider](slider.gif)
+![final slider](https://raw.githubusercontent.com/seveves/angular-stencil/master/angular/slider.gif)
