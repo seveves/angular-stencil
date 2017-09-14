@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+App.loadComponents("2tlvz7ue",function(n,e,a,t,i){var r=function(){function n(){}return n.prototype.valueChangedHandler=function(n){this.valueChanged.emit(n.target.value)},n.prototype.render=function(){var n=this;return e("div",{c:{"slider-container":!0}},e("input",{c:{slider:!0},o:{change:function(e){return n.valueChangedHandler(e)}},a:{type:"range"},p:{min:this.min,max:this.max,value:this.value}}))},n}();n["FWT-SLIDER"]=r},["FWT-SLIDER",[["max",1,2],["min",1,2],["value",1,2]],{},[["valueChanged"]]]);

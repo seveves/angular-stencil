@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Starter App</title>
+  <script src="/build/app.js"></script>
+
+  <meta name="theme-color" content="#16161d">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="/assets/img/icon.png">
+
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+</head>
+<body>
+
+  <fwt-slider min="1" max="100" value="50"></fwt-slider>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+     var slider = document.querySelector('fwt-slider');
+     slider.addEventListener('valueChanged', function(e) {
+       console.log(e.detail);
+     });
+    });
+
+  </script>
+
+</body>
+</html>
