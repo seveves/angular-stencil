@@ -1,0 +1,37 @@
+{
+  "hosting": {
+    "rules": [
+      {
+        "include": "/",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</assets/build/app/app.d9guwbls.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</assets/build/app/zji8cqpi.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/assets/build/app/**",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "public, max-age=31536000"
+          }
+        ]
+      },
+      {
+        "include": "/sw.js",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

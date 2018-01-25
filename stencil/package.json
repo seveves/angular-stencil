@@ -13,12 +13,12 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@stencil/core": "next",
-    "@stencil/router": "0.0.9"
+    "@stencil/core": "0.2.3",
+    "@stencil/router": "0.0.23"
   },
   "devDependencies": {
-    "@stencil/dev-server": "latest",
-    "@stencil/utils": "latest"
+    "@stencil/dev-server": "0.0.18",
+    "@stencil/utils": "0.0.4"
   },
   "repository": {
     "type": "git",
