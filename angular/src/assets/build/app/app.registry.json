@@ -1,0 +1,43 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "global": "app.global.js",
+  "core": "app.d9guwbls.js",
+  "corePolyfilled": "app.pu4pwxws.js",
+  "components": {
+    "fwt-slider": {
+      "$": "zji8cqpi"
+    },
+    "stencil-async-content": {
+      "$": "mfcxg1az"
+    },
+    "stencil-route": {
+      "$": "mfcxg1az"
+    },
+    "stencil-route-link": {
+      "$": "mfcxg1az"
+    },
+    "stencil-route-title": {
+      "$": "mfcxg1az"
+    },
+    "stencil-router": {
+      "$": "mfcxg1az"
+    },
+    "stencil-router-redirect": {
+      "$": "mfcxg1az"
+    },
+    "test-app": {
+      "$": "mh7pqpgg"
+    },
+    "test-demo-four": {
+      "$": "0sefzzse"
+    },
+    "test-demo-six": {
+      "$": "gifh2jkr"
+    },
+    "test-demo-three": {
+      "$": "1yscrcuc"
+    }
+  }
+}
