@@ -211,6 +211,8 @@ Next we need to add the generated javascript of our stencil project to our angul
 ```html
 <script src="assets/build/app.js"></script>
 ```
+An even better way would be to add your additional web component scripts to the `.angular-cli.json` config file as explained [here](https://github.com/angular/angular-cli/wiki/stories-global-scripts).
+
 ### add angular data-binding
 
 We said that our slider component has three properties (min, max, value). So let's establish angular data-binding to these properties in our app component.
